@@ -48,11 +48,12 @@ if repense.lower() == "oui":                                      # faites atten
         print("Python procède un typage dynamique donc on dit qu'il est 'fortement typé' car il arrive à détecter directement le type de nos variables lors de l'initialisation \n")
 
 
-    print("Merci de faire confiance en Learn and joy, vous avez eu", score, "questions correctes \n")
+    print("Merci de faire confiance en Learn and joy, vous avez eu", score, "questions correctes \n")  # nous n'avions pas fait de conversion ici car on a utilisé là "," et non pas la concatenation"+"
     note = (score/total) * 100
 
-    print("Vous avez la note de: ", str(note) + "% \n") # On peut faire la concatenation en deux manieres "," oubien "+"
-                                                     # On ne peut pas afficher deux types différents au sein de la fonction print()
+    print("Vous avez la note de: ", str(note) + "% \n") # On peut faire la concatenation avec le "+"
+                                                        # On ne peut pas afficher deux types différents au sein de la fonction print() du moment ou on utilise la concatenation (avec le "+") 
+                                                        # si on utilise la "," a la place du "+" on peut eviter d'utiliser la conversion (autrement dit le casting)
 else:
     print("Essayez ulterieurement \n")
 
