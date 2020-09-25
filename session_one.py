@@ -53,7 +53,7 @@ if repense.lower() == "oui":                                      # faites atten
 
     print("Vous avez la note de: ", str(note) + "% \n") # On peut faire la concatenation avec le "+"
                                                         # On ne peut pas afficher deux types différents au sein de la fonction print() du moment ou on utilise la concatenation (avec le "+") 
-                                                        # si on utilise la "," a la place du "+" on peut eviter d'utiliser la conversion (autrement dit le casting)
+                                                        # si on utilise la "," a la place du "+" on peut éviter d'utiliser la conversion (autrement dit le casting)
 else:
     print("Essayez ulterieurement \n")
 
