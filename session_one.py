@@ -16,7 +16,7 @@ if repense.lower() == "oui":                                      # faites atten
 
     # 2 ----------------------------------------------------------------------------------------------------------------
     repense = input("2. Quelle est votre niveau en algorithmique selon votre propre jugement ? (en %) \n")
-    rep = int(repense)  # conversion de str vers int
+    rep = int(repense)  # conversion de str vers int // car le input est toujours une chaine de caractères
     if rep >= 50:
         score = score + 1
         print("Bien, on peut attaquer Python. \n qui est un language multi-paradigme et multi-plateforme ")
